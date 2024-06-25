@@ -2,6 +2,9 @@
     <div class="container offset-3">
         <div class="row">
             <div class="col-6">
+
+                {{>mensages}}
+
                 <form action="/register" method="post" enctype="multipart/form-data">
                     <input type="text" name="nome" class="form-control" placeholder="Nome do produto">
                     <input type="number" name="valor" class="form-control" placeholder="Valor do produto">

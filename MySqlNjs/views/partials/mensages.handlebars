@@ -1,0 +1,24 @@
+                {{#conditionalEquality situation "register-success"}}
+                    <div class="alert alert-success">Produto devidamente cadastrado!</div>
+                {{/conditionalEquality}}
+
+                {{#conditionalEquality situation "remove-success"}}
+                    <div class="alert alert-success">Produto elegantimente removido!</div>
+                {{/conditionalEquality}}
+
+                {{#conditionalEquality situation "edit-success"}}
+                    <div class="alert alert-success">Produto esplendorosamente editado!</div>
+                {{/conditionalEquality}}
+
+
+                {{#conditionalEquality situation "register-failed"}}
+                    <div class="alert alert-danger">Houve uma falha no cadastro!</div>
+                {{/conditionalEquality}}
+
+                {{#conditionalEquality situation "revome-failed"}}
+                    <div class="alert alert-danger">Houve uma falha ao remover</div>
+                {{/conditionalEquality}}
+
+                {{#conditionalEquality situation "edit-failed"}}
+                    <div class="alert alert-danger">Houve uma falha ao editar</div>
+                {{/conditionalEquality}}
