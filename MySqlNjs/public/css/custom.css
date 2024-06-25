@@ -10,6 +10,11 @@ form input {
     margin-top: 10px;
 }
 
+form img {
+    width: 200px;
+    margin-bottom: 40px;
+}
+
 .product-image {
     width: 100%;
     height: 200px; 
